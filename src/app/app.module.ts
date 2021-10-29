@@ -26,6 +26,8 @@ import {
 import {
   environment
 } from '../environments/environment';
+import { BarComponent } from './bar/bar.component';
+import { PieComponent } from './pie/pie.component';
 
 const appRoutes: Routes = [{
   path: '',
@@ -41,7 +43,9 @@ const appRoutes: Routes = [{
   declarations: [
     AppComponent,
     LandingComponent,
-    ContactComponent
+    ContactComponent,
+    BarComponent,
+    PieComponent
   ],
   imports: [
     RouterModule.forRoot(
